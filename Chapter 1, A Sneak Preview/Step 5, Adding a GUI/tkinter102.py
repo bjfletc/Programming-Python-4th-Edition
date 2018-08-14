@@ -12,7 +12,7 @@ class MyGui(Frame):
         button.pack()
 
     def reply(self):
-        shwoinfo(title='popup', message='Button pressed!')
+        showinfo(title='popup', message='Button pressed!')
 
 if __name__ == '__main__':
     window = MyGui()
