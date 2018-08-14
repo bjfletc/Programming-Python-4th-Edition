@@ -33,7 +33,7 @@ def loadDbase(dbfilename = dbfilename):
         while field != ENDREC:
             name, value = field.split(RECSEP)
             rec[name] = eval(value)
-            field = iniput()
+            field = input()
         db[key] = rec
         key = input()
     return db
